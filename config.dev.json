@@ -68,7 +68,7 @@
 	},
 	"autoUptime": {
 		"enable": true,
-		"timeInterval": 500,
+		"timeInterval": 180,
 		"url": "https://uptime.botrandom30.repl.co",
 		"notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
 	},
@@ -83,8 +83,8 @@
 	"autoRestartWhenListenMqttError": false,
 	"restartListenMqtt": {
 		"disable": false,
-		"timeRestart": 0,
-		"delayAfterStopListening": 0,
+		"timeRestart": 3600000,
+		"delayAfterStopListening": 2000,
 		"logNoti": false,
 		"notes": "the value of timeRestart and delayAfterStopListening is milisecond, You shouldn't edit this if you don't know what it is"
 	},
